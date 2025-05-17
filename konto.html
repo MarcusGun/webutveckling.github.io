@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="konto.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html"><img src="bilder/png logga.png" alt="" /></a>
+
+      <li><a href="behandlingar.html">BEHANDLINGAR</a></li>
+
+      <li>
+        <a href="OmOss.html">OM SALONGEN</a>
+      </li>
+
+      <li><a href="kontakt.html">KONTAKT</a></li>
+
+      <li><a href="BokaTid.html"> BOKA TID</a></li>
+    </header>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <form action="" method="get" target="_blank">
+      <h1>Skapa konto</h1>
+      <br />
+
+      <label>
+        Skriv ditt förnamn:
+        <input
+          type="text"
+          name="Förnamn"
+          placeholder="Ange ditt namn"
+          class="kursiv"
+        />
+      </label>
+      <br />
+      <label>
+        Skriv ditt efternamn:
+        <input
+          type="text"
+          name="Förnamn"
+          placeholder="Ange ditt efternamn"
+          class="kursiv"
+        />
+      </label>
+      <br />
+      <label>
+        Skriv din mailadress:
+        <input
+          type="text"
+          name="Förnamn"
+          placeholder="Ange din e-post"
+          class="fet"
+        />
+      </label>
+      <br />
+      <label>
+        Skriv ditt lösenord:
+        <input type="password" name="Förnamn" />
+      </label>
+      <br />
+
+      <fieldset>
+        <legend>Kön</legend>
+        <label>
+          Man
+          <input type="radio" name="Kön" value="Man" />
+        </label>
+        <label>
+          Kvinna
+          <input type="radio" name="Kön" value="Kvinna" />
+        </label>
+      </fieldset>
+      <br />
+
+      <p>Land:</p>
+      <select name="" id="">
+        <option value="">Sverige</option>
+        <option value="">Zimbawe</option>
+        <option value="">Kazakstan</option>
+        <option value="">Dagestan</option>
+      </select>
+      <br />
+
+      <p class="avstånd">Vilka intressen har du?</p>
+      <label>
+        <input type="checkbox" name="syskon" value 1 />
+        Sport
+      </label>
+      <label>
+        <input type="checkbox" name="syskon" value 2 />
+        Musik
+      </label>
+      <label>
+        <input type="checkbox" name="syskon" value 3 />
+        Hår
+      </label>
+      <label>
+        <input type="checkbox" name="syskon" value 4 />
+        Mat
+      </label>
+      <br />
+
+      <p class="avstånd">Kommentar:</p>
+      <textarea
+        name=""
+        id=""
+        placeholder="Skriv kort om dig själv"
+        rows="3"
+      ></textarea>
+      <br />
+
+      <label>
+        <input type="checkbox" name="godkänning" />
+        Jag godkänner villkoren
+      </label>
+      <br />
+
+      <div>
+        <button type="submit" class="blå">Skicka</button>
+        <button class="röd" type="reset">Återställ</button>
+      </div>
+    </form>
+
+    <footer class="footerflex">
+      <section class="footerSectionFlex">
+        <h1>Kontakt</h1>
+        <p>Telefon: 0321-12377</p>
+        <p>Adress: Storgatan 15, 523 30 Ulricehamn</p>
+        <p>
+          Instagram:
+          <a href="https://www.instagram.com/ellesseulricehamn/"
+            >ellesseulricehamn</a
+          >
+        </p>
+
+        <div class="footerflex">
+          <a
+            class="footerimg"
+            href="https://www.instagram.com/ellesseulricehamn/"
+            target="_blank"
+            ><img src="bilder/instagramfr.png" alt=""
+          /></a>
+          <a
+            class="footerimg"
+            href="https://m.facebook.com/profile.php?id=100054414103600&name=xhp_nt__fb__action__open_user"
+            target="_blank"
+            ><img src="bilder/facebookpng.png" alt=""
+          /></a>
+        </div>
+      </section>
+
+      <div>
+        <h1>Öppettider</h1>
+        <p>Måndag till fredag 08:30 - 19:00</p>
+        <p>Lördag och söndag - Stängt</p>
+      </div>
+    </footer>
+  </body>
+</html>

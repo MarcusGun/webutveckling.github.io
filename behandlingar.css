@@ -1,0 +1,140 @@
+html {
+  font-size: 62.5%;
+  /* Gör basstorleken till 10 px */
+}
+
+body {
+  font-size: 1.4rem;
+  /* 10 * x px men relativ */
+  background-color: rgb(112, 108, 108);
+}
+
+header {
+  position: fixed;
+  align-items: center;
+  display: flex;
+  list-style: none;
+  /* justify-content: space-between; */
+
+  /* background-color: rgba(39, 37, 37, 0.603); */
+  /* background-color: rgba(39, 37, 37, 1); */
+}
+
+a img {
+  width: 11rem;
+  height: 11rem;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 12rem;
+  color: white;
+  /* color: black; */
+}
+
+a:visited {
+  color: #ffffff;
+  /* color: black; */
+}
+
+#huvudmeny {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(240, 248, 255, 0);
+}
+
+body img {
+  max-width: 98.8vw;
+  margin-left: -1rem;
+  margin-top: -1rem;
+  margin-right: -0.5rem;
+}
+
+main section h1 {
+    font-size: 3.8rem;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    margin-left: 5rem;
+}
+
+main section p {
+    font-size: 1.7rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: white;
+    max-width: 60rem;
+    margin-left: 5rem;
+}
+
+.flexrow {
+    display: flex;
+    flex-direction: row;
+    margin-left: 12rem;
+}
+
+.flexrow2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: -5rem;
+}
+
+.kvadratiskBild {
+    max-height: 35rem;
+    max-width: 50rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+    border-radius: 0.5rem;
+}
+
+.footerflex {
+    display: flex;
+    flex-direction: row;
+    margin-left: -3rem;
+}
+  
+.footerSectionFlex {
+    display: flex;
+    flex-direction: column;
+}
+  
+footer section {
+    margin-left: 15rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+  
+footer section a {
+    /* font-size: 2rem; */
+    color: white;
+}
+  
+footer div {
+    margin-left: 15rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+  
+footer h1 {
+    font-size: 3rem;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+}
+  
+footer p {
+    font-size: 1.7rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: white;
+    max-width: 40rem;
+}
+  
+  
+  
+footer section a img {
+    width: 5rem;
+    height: 5rem;
+    margin-left: 3rem;
+}
+  

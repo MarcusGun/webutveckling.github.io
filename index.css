@@ -1,0 +1,200 @@
+html {
+  font-size: 62.5%;
+  /* Gör basstorleken till 10 px */
+}
+
+video {
+  max-width: 98.8vw;
+}
+/* Css för header och huvudmeny */
+header {
+  position: fixed;
+  align-items: center;
+  display: flex;
+  list-style: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
+a img {
+  width: 11rem;
+  height: 11rem;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 12rem;
+  color: white;
+  /* color: black; */
+}
+
+a:visited {
+  color: #ffffff;
+  /* color: black; */
+}
+
+#huvudmeny {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(240, 248, 255, 0);
+}
+
+body {
+  font-size: 1.4rem;
+  /* 10 * x px men relativ */
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(112, 108, 108);
+}
+
+main section h1 {
+  font-size: 4rem;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+
+main section p {
+  font-size: 1.7rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  max-width: 40rem;
+}
+
+.margins {
+  margin-top: 15rem;
+  margin-left: 5rem;
+}
+
+.flexrow {
+  display: flex;
+  flex-direction: row;
+  margin-left: 12rem;
+}
+
+.flexcolumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.bild {
+  max-height: 50rem;
+  max-width: 25rem;
+  margin-top: 12rem;
+  margin-left: 7rem;
+  border-radius: 0.5rem;
+}
+
+section {
+  background-color: rgb(112, 108, 108);
+}
+
+section h1 {
+  font-size: 4rem;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+
+.förskjutning {
+  margin-left: 5rem;
+  color: white;
+}
+
+section p {
+  font-size: 1.7rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  max-width: 40rem;
+}
+
+/* Css för kvadratiska bilder. Storlekar osv */
+.kvadratiskBild {
+  max-height: 35rem;
+  max-width: 50rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-left: 5rem;
+  border-radius: 0.5rem;
+}
+
+/* Css för knapp */
+.knapp {
+  font-size: 2rem;
+  padding: 1rem;
+  text-decoration: none;
+  margin-left: 12rem;
+  border: solid 0.2rem;
+  border-radius: 0.5rem;
+  background-color: rgb(125, 122, 122);
+  border-color: white;
+  max-width: 11rem;
+  text-align: center;
+}
+
+div a:hover {
+  background-color: rgb(107, 109, 107);
+}
+
+/* CSS för footern börjar här */
+.sectionflexrow2 {
+  display: flex;
+  flex-direction: row;
+  margin-left: -5rem;
+}
+
+.footerflex {
+  display: flex;
+  flex-direction: row;
+  margin-left: -3rem;
+}
+
+.footerSectionFlex {
+  display: flex;
+  flex-direction: column;
+}
+
+footer section {
+  margin-left: 15rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+footer section a {
+  color: white;
+}
+
+footer div {
+  margin-left: 15rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+footer h1 {
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+
+footer p {
+  font-size: 1.7rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  max-width: 40rem;
+}
+
+footer section a img {
+  width: 5rem;
+  height: 5rem;
+  margin-left: 3rem;
+}
